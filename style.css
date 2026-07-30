@@ -30,10 +30,15 @@ a{
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
+    padding: 5px;
 }
 a:hover{
     color: #b36666;
-    transform: scale(2.0);
+    background-color: #dac0c0;
+    border-radius: 5px;
+    border: 2px solid #b36666;
+    box-shadow:5px 5px 5px  #b36666;
+
 }
 
 #nome-logo {
