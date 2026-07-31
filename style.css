@@ -56,7 +56,11 @@ p{
 }
 
 #btn-ver-livros{
-
+    background-color: #642f2f;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
 }
 #nome-logo {
     margin-left: 40px;
