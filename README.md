@@ -13,3 +13,4 @@
 # <link>
 # <a>
 # <img>
+# backroud-color:rgba(255,255,255, 0.6);

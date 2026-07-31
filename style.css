@@ -26,25 +26,38 @@ ul {
     list-style: none;
 }
 
-a{
+.menu{
     display: inline-block;
     text-decoration: none;
     color: #ffffff;
     padding: 5px;
     transition: 0.3s;
 }
-a:hover{
+
+.menu:hover{
     color: #b36666;
     background-color: #dac0c0;
     border-radius: 5px;
      border: #642f2f;
     box-shadow:5px 5px 5px  #b36666;
     opacity: 70%;
-#backroud-color:rgba(255,255,255, 0.6);
-
-
 }
 
+section{
+    text-align: center;
+    padding: 40px 200px;
+}
+h1{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 30px;
+}
+
+#btn-ver-livros{
+
+}
 #nome-logo {
     margin-left: 40px;
 }
