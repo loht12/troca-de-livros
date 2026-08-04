@@ -25,6 +25,7 @@ header {
     font-size: 20px;
     margin-left: 40px
 }
+
 span{
     font-weight: 700;
     font-size: 25px;
@@ -63,6 +64,7 @@ ul {
     color:#ffffff;
     height: 30vh;
 }
+
 h1{
     margin-bottom: 10px;
     padding-bottom: 30px;
@@ -81,13 +83,46 @@ p{
     padding: 20px;
     border-radius: 10px;
 }
+
 #btn-ver-livros:hover{
     background-color: #e96b97;
     border: none;
     color: #f8b2b2;
 
 }
+
 .foto-livro{
     max-width: 15vw;
 }
 
+.grade-livros{
+    max-width: 80vw;
+    margin: 0px auto;
+    margin-bottom: 20px auto;
+}
+.area-titulo{
+    text-align: center;
+    font-size: 35px;
+    margin: 30px 0px;
+    margin-bottom: 70px;
+}
+.card-livro{
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px(#e96b97);
+    overflow: hidden;
+}
+
+.info-livro{
+    padding-top: 20px;
+}
+
+.btn-livro{
+    background-color: #e96b97;
+    padding: 20px 30px;
+    color: #f8b2b2;
+    border: none;
+    border-radius: 5px;
+}
