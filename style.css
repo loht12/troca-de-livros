@@ -8,31 +8,37 @@ body{
     font-variation-settings:
     "wdth" 125;
 }
+*{
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
 
-header {
-    background-color: #831995;
+header{
+    background-color:#831995;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #ffffff;
-    max-width: 100%;
-    height: 7vh;
-    padding: 0 100px;
+    color:#ff009d;
+    max-width: 100vw;
+    height: 10vh;
+    padding: 0 100px ;
 }
 
 #nome-logo{
     font-weight: 400;
-    font-size: 20px;
-    margin-left: 40px
+    font-size: 25px;
 }
-
 span{
     font-weight: 700;
     font-size: 25px;
     color: #e96b97;
-    
 }
-ul {
+
+ul{
     display: flex;
     gap: 50px;
     list-style: none;
@@ -41,53 +47,52 @@ ul {
 .menu{
     display: inline-block;
     text-decoration: none;
-    color: #ffffff;
-    padding: 5px;
+    color: #f8b2b2;
+    padding: 10px 15px;
     transition: 0.3s;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .menu:hover{
-    color: #ffffff;
-    background-color: #c1378d;
-    border-radius: 5px;
-     border: #fdfdfd;
-    box-shadow:5px 5px 5px #f8b2b2;
-    opacity: 70%;
+    color: #efffdd;
+    transform: scale(1.2); 
+    transition: 0.2s;   
+    
 }
+
 
 .banner-principal{
     text-align: center;
-    padding: 40px 200px;
+    padding: 40px 200px; 
     background-image: linear-gradient(#831995, #c1378d, #e96b97, #f8b2b2, #efffdd);
-    color:#ffffff;
-    height: 30vh;
+    color:   #efffdd;
+    height: 35vh;
 }
 
 h1{
-    margin-bottom: 10px;
+    padding-top: 50px;
     padding-bottom: 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 p{
     margin-bottom: 70px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #btn-ver-livros{
-    background-color:#c1378d;
+    background-color:#831995;
     text-decoration: none;
-    color: #efffdd;
-    padding: 20px;
+    color: #f8b2b2;
+    padding: 20px 50px;
     border-radius: 10px;
+    font-weight: 600;
 }
 
 #btn-ver-livros:hover{
-    background-color: #e96b97;
+    background-color:#c1378d;
     border: none;
-    color: #f8b2b2;
 
 }
 
@@ -96,22 +101,27 @@ p{
 }
 
 .grade-livros{
-    max-width: 80vw;
-    margin: 0px auto;
-    margin-bottom: 20px auto;
+    max-width: 90vw;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
+
 .area-titulo{
-    text-align: center;
+    text-align: center;  
     font-size: 35px;
-    margin: 30px 0px;
-    margin-bottom: 70px;
+    margin-top: 30px;
+    margin-bottom: 70px; 
 }
+
 .card-livro{
     width: 300px;
     text-align: center;
     border-radius: 6px;
     padding: 30px;
-    box-shadow: 0px 0px 10px(#e96b97);
+    box-shadow: 0px 0px 10px #831995;
     overflow: hidden;
 }
 
@@ -120,9 +130,31 @@ p{
 }
 
 .btn-livro{
-    background-color: #e96b97;
+    background-color:#831995 ;
     padding: 20px 30px;
     color: #f8b2b2;
     border: none;
     border-radius: 5px;
+}
+
+.btn-livro:hover{
+    background-color: #c1378d;
+}
+.categoria-livro{
+    font-size: 16px;
+    font-weight: 400;
+    color: #c1378d;
+    background-color: #f8b2b2;
+    padding: 5px;
+    border-radius: 15px;
+}
+.titulo-livro{
+    font-size: 25px ;
+    color:#000000 ;
+    padding: 15px 0;
+    
+}
+.autores-livro{
+    font-size: 16px;
+    margin-bottom: 15px;
 }
