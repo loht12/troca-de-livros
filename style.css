@@ -213,22 +213,20 @@ p {
 
 }
 
+.footer{
+ background-image:linear-gradient( #efffdd, #efffdd); 
+}
+
 .footer-container{
-    font-size: 17px;
-    font-weight: 500;
-    color: #ff009d;
-    padding: 40px 20px;
-}
-.footer-coluna h4{
-    color: #e96b97;
-    font-size: 17px;
-}
-
-
-
-.footer-coluna a{
-    color: #e96b97;
-    font-size: 17px;
+    margin: 0 auto;
+    width: 90vw;
+    color: #000000;
+    display: flex;
 
 }
-    
+
+.footer-coluna{
+    display: flex;
+    flex-direction: column;
+
+}    
