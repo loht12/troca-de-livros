@@ -149,7 +149,7 @@ p {
 
 .btn-livro:hover {
     background-color: #c1378d;
-    
+
 }
 
 .categoria-livro {
@@ -213,11 +213,11 @@ p {
 
 }
 
-.footer{
- background-image:linear-gradient( #efffdd, #efffdd); 
+.footer {
+    background-image: linear-gradient(#efffdd, #efffdd);
 }
 
-.footer-container{
+.footer-container {
     margin: 0 auto;
     width: 90vw;
     color: #000000;
@@ -225,8 +225,24 @@ p {
 
 }
 
-.footer-coluna{
+.footer-coluna {
     display: flex;
     flex-direction: column;
 
-}    
+}
+
+.footer-social {
+    padding: 15px;
+}
+
+.footer-linha {
+    max-width: 70vw;
+    margin: 20px auto;
+    border: 1px solid var(--laranja-escurao);
+}
+
+.footer-copy {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 22px;
+}
