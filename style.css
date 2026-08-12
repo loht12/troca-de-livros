@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Saira:ital,wdth,wght@0,125,100..900;1,125,100..900&display=swap');
 
-body {
+*{
     margin: 0;
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
@@ -10,14 +10,6 @@ body {
         "wdth" 125;
 }
 
-* {
-    margin: 0;
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-
-}
 
 #inicio{
     scroll-margin-top: 10vh;
@@ -79,19 +71,19 @@ ul {
 .banner-principal {
     text-align: center;
     padding: 40px 200px;
-    background-image: linear-gradient(#831995, #c1378d, #e96b97, #f8b2b2, #efffdd);
+    background-image: linear-gradient(#831995, #c1378d, #eec0ff);
     color: #efffdd;
     height: 35vh;
 }
 
 h1 {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 30px;
     font-size: 40px;
 }
 
 p {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     font-size: 25px;
 }
 
@@ -100,8 +92,8 @@ p {
     text-decoration: none;
     color: #f8b2b2;
     padding: 20px 50px;
-    border-radius: 10px;
-    font-weight: 600;
+    border-radius: 20px;
+    font-weight: 700;
 }
 
 #btn-ver-livros:hover {
@@ -112,13 +104,13 @@ p {
 
 .foto-livro {
     width: 250px;
-    height: 280px;
+    height: 250px;
 }
 
 
 .grade-livros {
-    max-width: 90vw;
-    margin: 20px auto;
+    max-width: 80vw;
+    margin: 25px auto;
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -133,7 +125,7 @@ p {
 }
 
 .card-livro {
-    width: 300px;
+    width: 240px;
     text-align: center;
     border-radius: 20px;
     padding: 30px;
@@ -145,7 +137,6 @@ p {
 }
 
 .info-livro {
-    height: 200px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -212,7 +203,6 @@ p {
     margin: 0 auto;
     text-align: center;
     gap: 30px;
-    flex-wrap: wrap;
 
 }
 
@@ -237,10 +227,10 @@ p {
     font-size: 600;
 }
 
-.footer {
-    background-image: linear-gradient(#efffdd, #efffdd);
-    color: #000000;
-    padding: 10px;
+footer {
+    background-image:  linear-gradient( #ff89e9, #eec0ff, #831995);
+    color: #ffffff;
+    padding: 50px;
 }
 
 .footer-container {
@@ -264,7 +254,7 @@ p {
 .footer-coluna {
     display: flex;
     flex-direction: column;
-    min-width: 15px;
+    min-width: 15vw;
     
 }
 
@@ -279,11 +269,11 @@ p {
 
 a{
     text-decoration: none;
-    color: #f30096;
+    color: #ffffff;
 }
 
  .footer-coluna h4{
-    color: #c1378d;
+    color: #e96b97;
  }
 
 .footer-social {
@@ -293,7 +283,7 @@ a{
 .footer-linha {
     max-width: 70vw;
     margin: 20px auto;
-    border: 1px solid #ff06a0
+    border: 1px solid #cc0e83
 }
 
 .footer-copy {
