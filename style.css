@@ -19,6 +19,15 @@ body {
 
 }
 
+#inicio{
+    scroll-margin-top: 10vh;
+}
+
+#livros{
+    scroll-margin-top: 10vh;
+}
+
+
 header {
     background-color: #831995;
     display: flex;
@@ -33,6 +42,7 @@ header {
 #nome-logo {
     font-weight: 400;
     font-size: 25px;
+    margin-left: 10vw;
 }
 
 span {
@@ -55,6 +65,7 @@ ul {
     transition: 0.3s;
     font-size: 20px;
     font-weight: 600;
+
 }
 
 .menu:hover {
@@ -100,8 +111,10 @@ p {
 }
 
 .foto-livro {
-    max-width: 10vw;
+    width: 250px;
+    height: 280px;
 }
+
 
 .grade-livros {
     max-width: 90vw;
@@ -126,6 +139,9 @@ p {
     padding: 30px;
     box-shadow: 0px 0px 10px #831995;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .info-livro {
@@ -134,6 +150,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 
@@ -159,6 +176,7 @@ p {
     background-color: #f8b2b2;
     padding: 5px;
     border-radius: 15px;
+    width: 50%;
 }
 
 .titulo-livro {
@@ -176,7 +194,7 @@ p {
 /* Seção como funciona */
 
 .ajuda {
-    background-color: #efffdd;
+    background-color: #ffe3fb;
     padding: 40px 20px;
 }
 
@@ -208,28 +226,65 @@ p {
 
 }
 
+.passo h3 {
+    font-size: 23px;
+    color:#e96b97;
+    font-weight: 600;
+}
+
 .passo p {
     color: #e96b97;
-
+    font-size: 600;
 }
 
 .footer {
     background-image: linear-gradient(#efffdd, #efffdd);
+    color: #000000;
+    padding: 10px;
 }
 
 .footer-container {
     margin: 0 auto;
-    width: 90vw;
-    color: #000000;
+    max-width: 80vw;
     display: flex;
+    justify-content: space-between;
+}
 
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.footer-coluna p {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .footer-coluna {
     display: flex;
     flex-direction: column;
-
+    min-width: 15px;
+    
 }
+
+.footer-coluna ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    padding: 0;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #f30096;
+}
+
+ .footer-coluna h4{
+    color: #c1378d;
+ }
 
 .footer-social {
     padding: 15px;
@@ -238,7 +293,7 @@ p {
 .footer-linha {
     max-width: 70vw;
     margin: 20px auto;
-    border: 1px solid var(--laranja-escurao);
+    border: 1px solid #ff06a0
 }
 
 .footer-copy {
@@ -246,3 +301,4 @@ p {
     text-align: center;
     font-size: 22px;
 }
+
