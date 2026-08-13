@@ -5,7 +5,7 @@
         height: 673px;
         border: 2px solid #ff009d;
         margin: 10vh auto;
-        background-image: linear-gradient( rgba(155, 39, 133, 0.2), rgb(238, 192, 255,20%));
+        background-image: linear-gradient( rgba(242, 192, 233, 0.965),  rgba(138, 5, 114, 0.464));
         display: flex;
     }
 .sessao-imagem{
@@ -16,16 +16,26 @@
     align-items: central;
 }
 
+.sessao-login{
+    height: 673px;
+    width: 620px;
+}
+
 .area-titulo{
     text-align: center;
 }
 
-.area-titulo h1{
+.area-titulo h1, span{
     font-size: 36px;
+    padding-bottom: 24px;
 }
-.area-titulo, span{
-    font-size: 36px;
+
+.area-titulo h1{
+    color:#cc0e83;
+    font-weight: 600;
 }
 .area-titulo h2{
-    font-size: 24px; 
+    font-size: 36px;
+    color:#efffdd;
+    font-weight: 400;
 }
