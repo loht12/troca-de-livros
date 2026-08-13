@@ -5,4 +5,27 @@
         height: 673px;
         border: 2px solid #ff009d;
         margin: 10vh auto;
+        background-image: linear-gradient( rgba(155, 39, 133, 0.2), rgb(238, 192, 255,20%));
+        display: flex;
     }
+.sessao-imagem{
+    width: 522px;
+    height: 673px;
+    display: flex;
+    justify-content: center;
+    align-items: central;
+}
+
+.area-titulo{
+    text-align: center;
+}
+
+.area-titulo h1{
+    font-size: 36px;
+}
+.area-titulo, span{
+    font-size: 36px;
+}
+.area-titulo h2{
+    font-size: 24px; 
+}
