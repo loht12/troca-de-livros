@@ -55,6 +55,7 @@ form{
     display: flex;
     flex-direction: column;
     width: 434px;
+    gap: 3px;
 }
 form input{
     height: 35px;
@@ -62,18 +63,21 @@ form input{
     font-size: 18px;
     margin-bottom: 5px;
 }
+#email{
+    margin-bottom: 15pxgit ;
+}
 button{
     padding: 12px;
     font-size: 18px;
 }
-.link-senha{
+.links-senha{
     display: flex;
     align-items: center;
     justify-content:space-between;
 }
-.link-senha label{
+.links-senha label{
     position:relative;
-    right: 75px;
+    right: 60px;
     bottom: 3px;
 
 
