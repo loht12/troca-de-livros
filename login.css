@@ -1,22 +1,25 @@
 @import url(style.css);
-body{
-     background-image: linear-gradient( rgba(242, 192, 233, 0.965),  rgba(138, 5, 114, 0.464));
-     width: 100vw;
-     height: 100vh;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     
-
+*{
+    box-sizing: border-box;
 }
-main{
-        width: 1142px;
-        height: 673px;
-        border: 2px solid #ff009d;
-        margin: 10vh auto;
-        display: flex;
-    }
-.sessao-imagem{
+body {
+    background-image: linear-gradient(rgba(242, 192, 233, 0.965), rgba(138, 5, 114, 0.464));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 1142px;
+    height: 673px;
+    border: 2px solid #ff009d;
+    margin: 10vh auto;
+    display: flex;
+}
+
+.sessao-imagem {
     width: 522px;
     height: 673px;
     display: flex;
@@ -24,7 +27,11 @@ main{
     align-items: center;
 }
 
-.sessao-login{
+.sessao-imagem img {
+    border-radius: 10px 0 0 10px;
+}
+
+.sessao-login {
     height: 673px;
     width: 620px;
     display: flex;
@@ -32,53 +39,84 @@ main{
     align-items: center;
 }
 
-.area-titulo{
+.area-titulo {
     text-align: center;
 }
 
-.area-titulo h1, span{
+.area-titulo h1,
+span {
     font-size: 36px;
     padding-bottom: 5px;
 }
 
-.area-titulo h1{
-    color:#cc0e83;
+.area-titulo h1 {
+    color: #cc0e83;
     font-weight: 600;
 }
 
-.area-titulo h2{
+.area-titulo h2 {
     font-size: 24px;
-    color:#efffdd;
+    color: #efffdd;
     font-weight: 400;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     width: 434px;
     gap: 3px;
 }
-form input{
+
+form input {
     height: 35px;
     padding: 5px 10px;
     font-size: 18px;
-    margin-bottom: 5px;
 }
-#email{
-    margin-bottom: 15pxgit ;
+
+#email {
+    margin-bottom: 15px;
 }
-button{
+
+button {
+    margin-top: 15px;
     padding: 12px;
     font-size: 18px;
+    background-image: linear-gradient(to right, #cc0e83, #cc0e83);
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
 }
-.links-senha{
+
+form label {
+    color: var(--azul-principal);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.links-senha {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.links-senha label{
-    position:relative;
-    right: 60px;
-    bottom: 3px;
 
+.links-senha label {
+    position: relative;
+    right: 56px;
+}
 
+.links-senha label,
+input,
+a {
+    color: #000000;
+    font-weight: 400;
+}
+
+section a:hover {
+    color: #000000;
+    font-weight: 600;
+}
+
+#link-nao-conta {
+    text-align: center;
 }

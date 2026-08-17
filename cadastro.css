@@ -1,0 +1,9 @@
+@import url(login.css);
+.area-senha{
+    display: flex;
+    width: 434px;
+    gap: 10px;
+}
+.area-senha input{
+    width: 100%;
+}
