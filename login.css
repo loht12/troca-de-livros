@@ -1,7 +1,9 @@
 @import url(style.css);
-*{
+
+* {
     box-sizing: border-box;
 }
+
 body {
     background-image: linear-gradient(rgba(242, 192, 233, 0.965), rgba(138, 5, 114, 0.464));
     width: 100vw;
@@ -13,15 +15,16 @@ body {
 
 main {
     width: 1142px;
-    height: 673px;
-    border: 2px solid #ff009d;
+    height: 661px;
     margin: 10vh auto;
     display: flex;
+    box-shadow: 0 0 25px  #831995;
+    border-radius: 10px;
 }
 
 .sessao-imagem {
-    width: 522px;
-    height: 673px;
+    width: 510px;
+    height: 662px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +32,12 @@ main {
 
 .sessao-imagem img {
     border-radius: 10px 0 0 10px;
+
 }
 
 .sessao-login {
-    height: 673px;
-    width: 620px;
+    height: 661px;
+    width: 632px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,7 +93,7 @@ button {
 }
 
 form label {
-    color: var(--azul-principal);
+    color: var(#831995);
     font-size: 18px;
     font-weight: 500;
 }

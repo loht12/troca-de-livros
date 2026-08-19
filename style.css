@@ -228,7 +228,7 @@ p {
 }
 
 footer {
-    background-image:  linear-gradient( #ff89e9, #eec0ff, #831995);
+    background-image:  linear-gradient( #63365b, #994aa7, #f2c0e9f6);
     color: #ffffff;
     padding: 50px;
 }
@@ -290,4 +290,4 @@ a{
     margin-top: 20px;
     text-align: center;
     font-size: 22px;
-}
+} 
