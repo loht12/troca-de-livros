@@ -32,5 +32,11 @@ input{
     width: 300px;
     height: 100px;
     background-color: rgb(171, 249, 255);
-    margin: 20px ;
+    margin: 20px auto;
 }
+.btn{
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+
