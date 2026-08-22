@@ -1,42 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-body{
+body {
     width: 100vw;
     height: 100vh;
 }
 
-main{
-    margin: 0 auto;
-    width: 35vw;
+main {
+    margin: 20px auto;
+    width: 75vw;
     text-align: center;
 }
 
-h2{
-    background-color: rgb(171, 249, 255);
+h2 {
+    background-color: rgb(201, 169, 242);
     border-radius: 10px;
     font-size: 18px;
     font-weight: 400;
     margin: 20px;
     padding: 3px;
-
 }
-input{
+
+input {
     margin-bottom: 10px;
-
 }
-#caixa{
+
+#caixa {
     width: 300px;
     height: 100px;
-    background-color: rgb(171, 249, 255);
+    background-color:  rgb(201, 169, 242);
     margin: 20px auto;
 }
-.btn{
+
+.btn {
     padding: 5px 10px;
     margin-right: 10px;
 }
 
 
+.area_add_sub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    font-size: 20px;
+}
+
+.area_add_sub button {
+    padding: 5px 10px;
+    background-color: rgb(150, 107, 190);
+    border: 1px solid rgb(150, 107, 190);
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.area_add_sub button:hover {
+    background-color: rgb(153, 72, 228);
+
+
+}

@@ -1,38 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
-    <title>HOME</title>
-
+    <title>Praticando JS</title>
 </head>
-
 <body>
-    
-<main>
-    <h1>Home Java script </h1>
 
-    <section>
-        <h2>Trocar um nome na tela</h2>
-        <input type="text" id="nome-entrada" placeholder="Informe seu nome">
-        <button id="btn-troca">Trocar nome</button>
-        <p>Olá <b id="nome-saida">Visitante</b>!</p>
+    <main>
+        <h1> Praticando Java Script</h1>
 
-    </section>
         <section>
-        <h2>Alterando a cor da caixa</h2>
-        <div class="caixa">Aqui a caixa</div>
-        <button class=""btn_marrom>MARROM</button>
-         <button class=""btn_rosa>ROSA</button>
-          <button class=""btn_roxo>ROXO</button>
+            <h2>Trocar um nome na tela</h2>
+            <input type="text" id="nome-entrada" placeholder="Informe seu nome">
+            <button id="btn-troca">Trocar nome</button>
+            <p> Olá <b id="nome-saida">Visitante</b>!</p>
         </section>
-    </section>
-</main>
+        <section >
+            <h2>Alterando a cor da caixa</h2>
+            <div id="caixa"> Aqui a caixa</div>
+            <button id="btn_roxo" class="btn">ROXO</button>
+            <button id="btn_roxo_clarinho" class="btn">ROXINHO</button>
+            <button id="btn_roxinho" class="btn">ROXO_CLARINHO</button>
+        </section>
+        <h2>Simulando adição e subtração de valor</h2>
 
-    <script src="script.js"></script>
-    
+        <section class="area_add_sub">
+            <button id="btn_mais"> + </button>
+            <p id="valor_real"> 0 </p>
+            <button id="btn_menos"> - </button>
+        </section>
+        <h2> Adicionando Livros </h2>
+        <section class="area-livros">
+            <input type="text" id="nome_livro">
+            <button id="adiciona_livro">Adicionar</button>
+            <ul id="lista_livros">
+
+            </ul>
+        </section>
+    </main>
+
+
+    <script src="home.js"></script>
 </body>
-
 </html>
